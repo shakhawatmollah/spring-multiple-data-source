@@ -1,0 +1,27 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /
+
+datasource:
+  user:
+    url: jdbc:mysql://localhost:3306/spring_datasource_one
+    username: root
+    password: 123456
+    driverClassName: com.mysql.cj.jdbc.Driver
+    ddlAuto: update
+    dialect: org.hibernate.dialect.MySQL5Dialect
+  company:
+    url: jdbc:mysql://localhost:3306/spring_datasource_two
+    username: root
+    password: 123456
+    driverClassName: com.mysql.cj.jdbc.Driver
+    ddlAuto: update
+    dialect: org.hibernate.dialect.MySQL5Dialect
+  brand:
+    url: jdbc:mysql://localhost:3306/spring_datasource_three
+    username: root
+    password: 123456
+    driverClassName: com.mysql.cj.jdbc.Driver
+    ddlAuto: update
+    dialect: org.hibernate.dialect.MySQL5Dialect
